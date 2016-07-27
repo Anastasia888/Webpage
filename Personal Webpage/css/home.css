@@ -1,0 +1,826 @@
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+.main {	
+	margin: 0 auto;
+	max-width: 1400px;
+}
+
+
+.container {
+  padding: 10 rem  11.5 rem;
+  }
+
+  .hero {
+	background: #848484;
+	background-image: url(../img/oboi3.jpg);
+	border-bottom: 10px solid #3a9c61;
+	height: 700px;
+ }
+
+.service {
+	height: 827px;
+}
+
+.about {
+	height: 760px;
+	background-color: #f2f0e9;
+}
+
+.work {
+	height: 913px;	
+}
+
+.clients {
+	height: 642px;	
+	background-color: #f2f0e9;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+
+ }
+
+p {
+  font-size: 1.6 rem;
+  font-family: "Open Sans","Verdana";
+  color: #241e18;
+  line-height: 24px;
+  
+ }
+ 
+.nav>li {
+	display: inline-block;
+	text-transform: uppercase;	
+	font-family: "Open Sans";
+	font-size: 14px;
+	margin-top: 37px;
+	padding: 0 5px;	
+}
+
+.nav a{
+	color: #b2b2b2;
+	font-family: "Open Sans";
+	font-weight: 700;
+}
+
+ul.nav-tabs {
+	border-bottom: none;
+}
+
+ .nav>li a:hover, .nav>li a:focus{
+	color: #fff;
+	background: none !important;
+	border-bottom: 2px solid #3a9c61;
+	padding: 10px 5px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	-webkit-transition: all .25s ; 
+	-o-transition: all .25s; 
+	transition: all .25s;	
+}
+
+
+h1 {
+	 font-size: 48px;
+	 font-family: "Merriweather";
+	 color: #fff;
+	 margin: 90px;
+	 height: 120px;
+	 line-height: 64px;
+	 text-align: center;
+	 font-weight: 700;
+	 margin-bottom: 87px;
+}
+
+h2 {
+	font-size: 3.6 rem;
+	text-align: center; 
+	font-weight: bold;
+	font-family: "Merriweather";
+	line-height: 48px;
+	margin-top: 99px;
+	color: #241e18;
+
+ }
+
+h3 {
+	height: 25px;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 20px;
+	font-family: "Merriweather";
+	color: #fff;
+	margin-top: 37px;
+	position: absolute;
+	float:left;
+}
+
+ h4 {
+	font-family: "Open Sans";
+	color: #3a9c61;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 29px;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 24px;
+   margin-bottom: 98px;	
+}
+
+h5 {
+	font-family: "Open Sans";
+	color: #90dbb2;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 11px;
+	margin-top: 110px;
+   font-size: 14px;
+   text-align: center;
+   line-height: 24px;
+   font-weight: 700;
+    	
+}
+
+ 
+
+h6 {
+	color: #241e18;
+	font-family: Merriweather;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 34px;
+	margin-top: 48px;
+}
+ 
+  
+.btn {
+	border: 1px solid;
+	padding: 2.0rem 4.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	border-radius: 30px;
+	font-weight: bold;
+ }
+ 
+ 
+ .btn-outline {
+	border-color: #fff;
+	color:#fff; 
+	margin-bottom: 142px;
+	margin-left: 60%;
+ }
+ 
+ .btn-outline:focus, .btn-outline:hover {
+    background-color: #fff;
+	color: #3a9c61;
+     }
+ 
+ .btn-outline-prime {
+	border: 2px solid #3a9c61;
+	color: #3a9c61;
+	background: transparent;
+	text-align: center;
+	margin-top: 45px;
+ }
+
+  .btn-outline-prime:focus, .btn-outline-prime:hover {
+    background-color: #3a9c61;
+    color: #fff; 
+ }
+	
+	.btn-large {
+	font-size: 2rem;
+	padding: 3 rem 5 rem;
+	width: 300px;
+	text-align: center;
+	margin-top: 50px;
+  }
+ 
+ .btn-third {
+	border: 2px solid #e98e19;
+	background: #e98e19;
+	margin-bottom: 142px; 
+	color: #fff;
+}
+
+a {
+	color:#fff;
+}
+
+a:hover {
+	color: #e98e19;	
+}
+
+.btn-third a:hover, .btn-third a:focus {
+	text-decoration: none;
+	color: #e98e19;
+}
+ .btn-third:hover {
+	background: #fff ;
+	
+}
+.btn-third:hover a{
+	color: #e98e19;
+}
+
+
+#popupform .btn-third:focus {
+	color:#e98e19;
+
+}
+
+.about img {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.work img {
+	
+width: 263px;
+height: 197px;
+
+}
+
+footer {
+ background: #241e18;	
+ height: 336px;
+ color: #65615d;	
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+.copyright {
+	margin-top: 101px;
+	font-family: "Open Sans";
+	font-size: 16px;
+	line-height: 24px;
+}
+ul li a i {
+   
+    color: #fff;
+    width: 67px;
+    height: 67px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-right: 30px;
+    transition: all 0.2s ease-in-out;
+	padding-top: 20%;
+	text-align:center;
+ 
+}
+
+.col-md-12 li {
+	display: inline-block;
+	margin-top: 51px;
+	font-size: 22px;
+}
+
+ul li a i:hover {
+    opacity: .4;
+}
+.fa-facebook {
+	background:#3b5998;
+	
+} 
+.fa-linkedin {
+	background:#007bb6;
+}
+
+.fa-github {
+	background:#00010e;
+}
+
+
+.main_btn button {
+	float:right;
+}
+
+.main_btn a {
+	display: block;
+}
+
+.clients p {
+	color: #65615d;
+	font-family: Merriweather;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 36px;
+	text-align: center;
+	
+}
+
+.clients h6 {
+	font-size: 22px;
+	line-height: 30px;
+	margin-top: 13px;	
+}
+
+.avatar {
+	margin-top: 13px;
+	text-align: right;
+}
+
+.company {
+	
+	font-size: 14px;
+	color: #65615d;
+	font-style: italic;
+	font-family: OpenSans;
+	margin-bottom: 53px;
+
+}
+
+.about p {
+	line-height: 30px;
+	 margin-bottom: 1.5em;
+	  font-size: 16px;
+}
+ .text :last-child {
+	 color: #3a9c61;
+	 text-decoration: underline;
+	
+ }
+
+.content h4{
+	margin-bottom: 50px;}
+
+.touch {
+	height: 397px;
+}
+
+.touch h4 {
+	color: #a6a49d;	
+	margin-bottom: 49px;	
+}
+
+.touch h2 {
+	font-size: 48px;
+	margin-top: 95px;
+	
+}
+
+.intro-text {
+	color: #241e18;
+	font-family: Merriweather;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 34px;
+	margin-top: 28px;
+	margin-bottom: 19px;
+	text-align:center;
+	
+}
+
+.designer {
+	color: #65615d;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+	margin-bottom: 36px;
+}
+
+.jonh
+{
+	color: #3a9c61;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	
+}
+.works {
+	margin-top: 30px;
+}
+
+.text-center {
+  text-align: center; 
+  }
+/*form---*/
+#popupform
+{
+    display: none;
+	max-width: 800px;
+	max-height: 500px;
+	padding: 0 20px 0 10px;
+}
+ 
+#popupform .error {
+    color: #c00000;
+}
+
+
+#popupform label {
+    display: block;
+    padding: 16px 0 4px;
+}
+#popupform .input_text {
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    color: #555;
+	font-family: "Open Sans";
+    display: block;
+    font-size: 12pt;
+    height: 50px;
+    margin: 17px 6px 0 0;
+    padding: 5px;
+    width: 400px;
+}
+
+#popupform #message {
+	width: 400px;
+	height: 130px;
+	
+}
+ #popupform h2 {
+	margin-top: 20px;
+	color: #848484;
+	font-family: "Merriweather";
+	font-weight: 700;
+ }
+ 
+ #popupform .btn-third  {
+	 margin-top: 30px;
+	 margin-left: 25%;
+	 margin-bottom: 10px;
+
+ }
+ /*fixed menu---*/
+	#menu.default {
+		width:auto;
+        }
+		
+	#menu.fixed {
+		position:fixed;
+        top:0; left:0;
+        width: 100%;
+		text-align: center;
+        line-height: 80px;
+        background: #60c488;	
+        -moz-border-radius: 5px;
+        -webkit-border-radius:5px;
+		z-index: 2;
+        }
+	#menu.fixed li {
+		margin-top: 10px;
+		margin-right: 10px;
+		}
+		
+	#menu.fixed a {
+		color: #636363;
+			
+		}
+		
+	#menu.fixed a:hover,#menu.fixed a:focus{
+		border-bottom: none;
+		color: #fff;
+		}
+	#menu.fixed h3 {
+		margin-left: 20px;
+		margin-top: 30px;
+		}
+			
+	ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+		color: #fff;
+		border: none;
+
+		}
+
+/*carousel---*/
+	
+body .slider {
+	overflow:hidden; 
+	position:relative;
+	width:100%;
+	max-width:760px;
+	height:500px;
+	margin:0 auto;
+
+}
+
+
+body .slider .slides {
+	position:relative;
+	transition:1s; 
+
+}
+
+body .slider .slides .slide {
+	float:left;
+	display:block;
+
+}
+
+body .slider .slides .slide img{
+	width: auto;
+	height: auto;
+	border-radius:50%;
+}
+
+body .slider .next {
+	position:absolute;
+	height:20px;
+	width:20px;
+	background:none;
+	right:0;
+	top:150px;
+	z-index:1;
+	cursor:pointer;
+
+}
+
+body .slider .prev {
+	position:absolute;
+	height:20px;
+	width:20px;
+	background:none;
+	left:0;
+	top:150px;
+	z-index:1;
+	cursor:pointer;
+
+}
+
+/*?????? */
+body .slider .navigation {
+	position:absolute;
+	width:100%;
+	left:0;
+	z-index:1;
+	cursor:pointer;
+
+}
+
+body .slider .navigation .dot{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:#fff;
+	cursor:pointer;
+	border-radius:16px;
+	margin:0 8px;
+	border:1px solid #fff;
+
+}
+
+body .slider .navigation .active{
+	background: #3a9c61;
+	width:20px;
+	height:20px;
+	}
+
+/*hover---*/
+
+.img-hide:hover{
+    opacity: 1;
+	width: auto;
+	height: auto;
+	
+}
+
+.arrow {
+
+    content: "";
+    position: absolute;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+.arrow:hover {
+    opacity: 0;		
+}
+ 
+ @media only screen and (min-width:769px) and (max-width: 1200px) {
+	h1 {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 28px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	float: left;	
+}
+
+h4 {
+	margin-top: 10px;
+	font-size: 12px;
+	margin-bottom: 20px;
+	
+}
+
+h6 {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.btn-outline {
+	margin: 0;
+	float: right;
+}
+
+.btn-outline-prime {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 150px;
+	text-align: center;
+	font-size: 8px;	
+
+}
+
+.service img{
+	width: 40%;		
+}
+
+.about p {
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.nav li {
+	font-size: 12px;
+}
+
+.work img {
+	padding: 5px;	
+}
+
+.works {
+	margin-top: 5px;	
+}
+
+.container {
+      width: 90%;
+ }
+ 
+body .service{
+	 height: auto;	 
+		
+}
+
+.clients p {
+	font-size: 22px;
+}
+
+div.slide {
+	height: 80%;
+}
+
+}
+ 
+
+@media screen and (min-width:100px) and (max-width:768px) {
+ 
+.main_btn ul {
+	display: none;	
+}
+ 
+ .nav li {
+	display: block;	
+	font-size: 10px;
+
+}
+ .nav>li a:hover, .nav>li a:focus {
+	border-bottom:none;
+ } 
+ 
+ .main_btn button  {
+	margin-top: 13px;
+ }
+ 
+.btn-outline {
+	margin: 0;
+	float: right;
+} 
+
+.btn-outline-prime,.btn-large{
+	width: 200px;
+	text-align: center;
+	font-size: 12px;
+}
+.btn-outline-prime {
+	margin-top: 10px;
+	margin-bottom: 15px;	
+}
+
+.about .intro-text, .about .designer,.about .jonh {
+	font-size: 13px;
+	margin-bottom: 5px;	
+}
+
+.about p {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 20px;	
+}
+
+body .service,.work,.about  {
+	 height: auto;	 
+		
+}
+.service img,.about img{
+	width: 35%;
+}
+
+ footer, header,menu, nav, section { 
+    display: block;
+}
+
+h1 {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+ h2 {
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+h6 {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.slide h6 {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+h4 {
+	margin-top: 10px;
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+ .container {
+    width: 90%;	 	  
+ }
+ 
+.clients p {
+	font-size: 19px;
+}
+
+body .slide {
+	position:relative;
+}
+
+ }
+	
+   
+
+ 
+
+
+	
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+ 
+
