@@ -61,30 +61,41 @@ p {
 	font-family: "Open Sans";
 	font-size: 14px;
 	margin-top: 37px;
-	padding: 0 5px;	
+	padding: 0 15px;
+
 }
 
 .nav a{
 	color: #b2b2b2;
 	font-family: "Open Sans";
 	font-weight: 700;
+	
+		
 }
 
 ul.nav-tabs {
 	border-bottom: none;
+	
 }
+
+.nav li a {
+	padding:10px 5px;
+	
+	
+}
+
 
  .nav>li a:hover, .nav>li a:focus{
 	color: #fff;
 	background: none !important;
 	border-bottom: 2px solid #3a9c61;
-	padding: 10px 5px;
 	border-top: none;
 	border-left: none;
 	border-right: none;
 	-webkit-transition: all .25s ; 
 	-o-transition: all .25s; 
-	transition: all .25s;	
+	transition: all .25s;
+
 }
 
 
@@ -477,9 +488,10 @@ ul li a i:hover {
         -moz-border-radius: 5px;
         -webkit-border-radius:5px;
 		z-index: 2;
+		
         }
 	#menu.fixed li {
-		margin-top: 10px;
+		margin-top: 12px;
 		margin-right: 10px;
 		}
 		
@@ -699,6 +711,8 @@ div.slide {
 .main_btn ul {
 	display: none;	
 }
+
+ 
  
  .nav li {
 	display: block;	
